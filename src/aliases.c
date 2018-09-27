@@ -40,6 +40,9 @@ char tempo_site(int telescope_id) /*includefile*/
   case 65:
     return('k'); /*KAT-7*/
     break;
+  case 1916:
+    return('ie613');
+    break;
   default:
     return('?'); /*unknown*/
     /*error_message("tempo_site: unknown telescope!");*/
@@ -92,6 +95,9 @@ char *telescope_name (int telescope_id) /*includefile*/
     break;
   case 82:
     strcpy(string,"eMerlin");
+    break;
+  case 1916:
+    strcpy(string,"I-LOFAR");
     break;
  
   default: 
