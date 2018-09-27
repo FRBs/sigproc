@@ -205,7 +205,7 @@ double ep0,ep1,*ra,*dc;
 
 /*  Convert to uppercase and validate SYSTEM */
     if( strcasecmp(system, "FK4")!=0 && strcasecmp(system, "FK5")!=0 )
-      return;
+      return 0.0;
 
 /*     Generate appropriate precession matrix */
     if(strcasecmp(system, "FK4") == 0)
@@ -2662,7 +2662,7 @@ double *pha;
 
   sq = cosdec*cosdec - coslat*coslat*sinaz*sinaz;
   if( sq < 0.0 )
-    return;
+    return 0.0;
   sinelp = (sinlat*sindec + coslat * cosaz * 
     sqrt( sq ) ) /
     ( 1.0 - coslat*coslat * sinaz*sinaz );

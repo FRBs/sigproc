@@ -72,5 +72,3 @@ src/tree
 src/tune
 stamp-h1
 src/zerodm
-src/makePsrXml
-src/filmerge

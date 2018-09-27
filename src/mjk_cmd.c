@@ -64,7 +64,7 @@ mjk_clock_t *init_clock(){
    return ret;
 }
 
-void start_clock(mjk_clock_t* clock){
+/*void start_clock(mjk_clock_t* clock){
    if(!clock->running){
 	  clock->stt = omp_get_wtime();
 	  clock->running=1;
@@ -75,7 +75,7 @@ void stop_clock(mjk_clock_t* clock){
 	  clock->running=0;
 	  clock->time += omp_get_wtime() - clock->stt;
    }
-}
+   }*/
 void reset_clock(mjk_clock_t* clock){
    clock->running=0;
    clock->time=0;
