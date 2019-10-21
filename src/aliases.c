@@ -87,6 +87,9 @@ char *telescope_name (int telescope_id) /*includefile*/
   case 10: 
     strcpy(string,"SRT");
     break;
+  case 11:
+    strcpy(string,"LOFAR");
+    break;
   case 64:
     strcpy(string,"MeerKAT");
     break;
