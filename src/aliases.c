@@ -160,6 +160,9 @@ char *backend_name (int machine_id) /*includefile*/
   case 82:
     strcpy(string,"loft-e");
     break;
+  case 1916:
+    strcpy(string,"RÉALTA");
+    break;
   default:
     strcpy(string,"?????");
     break;
