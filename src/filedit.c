@@ -34,7 +34,7 @@ void print_usage(){
 	printf("--beam,-b {i}         : modify the beam number to {i}\n");
 	printf("--nbeams,-B {i}       : modify number of beams to {i}\n");
 	printf("--nchan,-c {i}        : modify number of channels to {i}\n");
-	printf("--fch2,-f {f}         : modify fch1 {f}\n");
+	printf("--fch1,-f {f}         : modify fch1 {f}\n");
 	printf("--foff,-F {f}         : modify foff {f}\n");
 	printf("--nbits,-i {b}           : modify nbits {b}\n");
 	printf("\nOther options:\n");

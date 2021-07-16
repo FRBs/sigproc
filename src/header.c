@@ -17,7 +17,7 @@ int nbins;
 main(int argc, char *argv[]) 
 {
 	FILE *fileptr;
-	char filename[80],*telescope,*backend,*datatype,message[80],unit[16];
+	char filename[200],*telescope,*backend,*datatype,message[80],unit[16];
 	int i,j,year,month,day,check,rah,ram,ded,dem;
 	double ras,des,frac,tobs;
 	char sra[6],sde[6],decsign;
